@@ -1,0 +1,93 @@
+.main_section{
+    background: rgba(89, 89, 247, 0.26);
+    height: 100vh;
+}
+
+.user_cart{
+    width: 45rem;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.cart_head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart_head button{
+    background: none;
+    border: none;
+    text-decoration: underline;
+    color: rgb(231, 59, 59);
+    cursor: pointer;
+}
+
+.cart_product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0 1rem 0;
+}
+
+.cart_product .product_img{
+    width: 8rem;
+}
+
+.cart_product .product_img img{
+    width: 60px;
+    border-radius: 100%;
+}
+
+.product_name h2{
+    font-size: 1.4rem;
+}
+
+.product_name {
+    width: 10rem;
+}
+
+.product_btn button{
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 100px;
+    border: none;
+    background: rgba(128, 128, 128, 0.418);
+    cursor: pointer;
+}
+
+.product_btn{
+    width: 8rem;
+}
+
+.product_btn button:hover{
+    background: rgb(170, 166, 166);
+}
+
+.product_btn span{
+    margin: 0 0.6rem 0 0.6rem;
+}
+
+.product_total_amount{
+    padding: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.submitBtn{
+    text-align: center;
+}
+
+.submitBtn button{
+    padding: 0.4rem 0.6rem;
+    background: none;
+    border: 1px solid rgb(82, 79, 166);
+    color: rgb(82, 79, 166);
+    transition: all 1s ease-in-out
+}
+
+.submitBtn button:hover{
+    background: rgb(82, 79, 166);
+    color: #fff;
+    border: 1px solid black;
+}

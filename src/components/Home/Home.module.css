@@ -1,0 +1,82 @@
+.home_heading{
+    padding: 1rem;
+}
+
+.home_heading h2{
+    color: rgb(139, 133, 133);
+}
+
+.main_card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.dish_card{
+    transition: all 0.8s ease-in-out;
+}
+
+.dish_card:hover{
+    box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.178);
+}
+
+.dish_card img{
+    width: 100%;
+    height: 50vh;
+}
+
+.dish_price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dish_price .price{
+    font-weight: 500;
+}
+
+.dish_desc h2{
+    color: rgb(75, 74, 74);
+}
+
+.dish_desc span {
+    display: flex;
+    align-items: center;
+}
+
+.dish_desc span svg{
+    color: rgba(240, 204, 4, 0.863);
+}
+
+.dish_desc span h3{
+    margin-left: 4px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.dish_desc p{
+    color: rgb(114, 113, 113);
+}
+
+.item_more{
+    margin-top: 0.4rem;
+}
+
+.main_addToCart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_addToCart .addToCartBtn button{
+    margin: 0.4rem 0rem 0rem 0rem;
+    padding: 0.5rem 0.5rem;
+    background: rgb(83, 182, 83);
+    border: none;
+    transition: all 0.6s ease-in-out;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main_addToCart .addToCartBtn button:hover{
+    background: rgb(30, 78, 16);
+    color: #fff;
+}
